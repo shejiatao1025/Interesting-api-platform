@@ -87,9 +87,6 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
         if (invokeUser == null) {
             return handleNoAuth(response);
         }
-//        if (!"yupi".equals(accessKey)) {
-//            return handleNoAuth(response);
-//        }
         if (Long.parseLong(nonce) > 10000L) {
             return handleNoAuth(response);
         }
@@ -115,7 +112,6 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
         if (interfaceInfo == null) {
             return handleNoAuth(response);
         }
-        // todo 是否还有调用次数
         // 5. 请求转发，调用模拟接口 + 响应日志
         //        Mono<Void> filter = chain.filter(exchange);
         //        return filter;

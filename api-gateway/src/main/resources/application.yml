@@ -11,18 +11,18 @@ spring:
           predicates:
             - Path=/api/**
 #        - id: add_request_header_route
-#          uri: http://localhost:8123
+#          uri: http://localhost:8899
 #          predicates:
 #            - Path=/api/**
 #          filters:
-#            - AddRequestHeader=yupi, swag
+#            - AddRequestHeader=shejt, swag
 #            - AddRequestParameter=name, dog
 #            - name: CircuitBreaker
 #              args:
 #                name: myCircuitBreaker
 #                fallbackUri: forward:/fallback
-#        - id: yupi-fallback
-#          uri: https://yupi.icu
+#        - id: shejt-fallback
+#          uri: https://learnspace.cn/
 #          predicates:
 #            - Path=/fallback
 logging:

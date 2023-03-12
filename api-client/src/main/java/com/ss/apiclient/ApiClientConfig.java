@@ -19,7 +19,7 @@ public class ApiClientConfig {
     private String secretKey;
 
     @Bean
-    public ApiClient yuApiClient() {
+    public ApiClient ApiClient() {
         return new ApiClient(accessKey, secretKey);
     }
 
