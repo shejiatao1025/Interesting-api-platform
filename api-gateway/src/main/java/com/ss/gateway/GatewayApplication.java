@@ -1,7 +1,7 @@
 package com.ss.gateway;
 
 
-import com.ss.gateway.provider.DemoService;
+import com.ss.project.provider.DemoService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;

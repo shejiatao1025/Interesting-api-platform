@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ss.gateway.provider;
+package com.ss.project.provider;
 
 import java.util.concurrent.CompletableFuture;
 

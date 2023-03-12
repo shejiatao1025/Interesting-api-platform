@@ -20,7 +20,7 @@ import static com.ss.apiclient.utils.SignUtils.genSign;
  */
 public class ApiClient {
 
-    private static final String GATEWAY_HOST = "http://localhost:8001";
+    private static final String GATEWAY_HOST = "http://localhost:8090";
 
     private String accessKey;
 
